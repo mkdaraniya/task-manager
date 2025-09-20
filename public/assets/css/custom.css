@@ -1,0 +1,22 @@
+/* Override existing css */
+.dtr-control {
+    padding-top: unset !important;
+    padding-bottom: unset !important;
+}
+
+.dtr-control:before,
+[data-bs-theme="light"] .dtr-control:before {
+    background-color: unset !important;
+    -webkit-mask-image: unset;
+    mask-image: unset;
+    content: "";
+}
+/* End of override css */
+
+.form-control.form-control-solid {
+    border-color: unset;
+}
+
+.card.border-light {
+    border-color: #e0e0e0 !important;
+}

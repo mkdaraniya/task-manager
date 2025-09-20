@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for Kanban, etc. */
+.kanban-board {
+    display: flex;
+    overflow-x: auto;
+}
+
+.status-column {
+    min-width: 300px;
+    margin-right: 10px;
+}
+
+.task-card {
+    cursor: move;
+    background: white;
+    border: 1px solid #ddd;
+    transition: box-shadow 0.2s;
+}
+
+.task-card:hover {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Dark mode */
+.dark-mode {
+    background: #1e1e1e;
+    color: #fff;
+}
